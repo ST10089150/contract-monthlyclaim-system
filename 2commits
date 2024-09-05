@@ -1,0 +1,18 @@
+git init
+git add .
+git commit -m "Initialize project with basic structure and dependencies"
+git branch -M main
+git remote add origin https://github.com/yourusername/contract-monthly-claim-system.git
+git push -u origin main
+git add Lecturer.cs
+git commit -m "Add Lecturer class with attributes and methods"
+git push
+git add Claim.cs
+git commit -m "Implement Claim class and establish relationships with Lecturer"
+git push
+git add ProgrammeCoordinator.cs AcademicManager.cs
+git commit -m "Add ProgrammeCoordinator and AcademicManager classes with basic functionality"
+git push
+git add SupportingDocument.cs UI/Coordinator.xaml UI/ClaimDetails.xaml
+git commit -m "Add SupportingDocument class and update UI for claim management"
+git push
